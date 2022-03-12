@@ -1,0 +1,22 @@
+{
+  "name": "typescript_learning",
+  "version": "1.0.0",
+  "description": "无用代码",
+  "main": "app.ts",
+  "repository": "https://github.com/xiaopi3/typescript_learning.git",
+  "author": "xiaopi3 <447560484@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "tsc": "tsc",
+    "server": "lite-server"
+  }
+}
